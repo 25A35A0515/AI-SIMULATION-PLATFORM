@@ -1,16 +1,138 @@
-# React + Vite
+# 🤖 AI Interview Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web application that helps users practice real-time interview questions based on their selected role and receive instant feedback.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🎯 Role-based Interview (Web Developer, Data Analyst, AI Engineer)
+* 📝 Dynamic Question System
+* 🔐 User Authentication (Login & Signup)
+* 🤖 Instant Feedback with Score Breakdown
+* 📊 Dashboard Overview
+* 💡 Clean and responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚛️ React.js
+* 🌐 React Router DOM
+* 🎨 CSS (Custom Styling)
+* 💾 LocalStorage (for storing user data & answers)
+* ⚡ Vite (for fast development)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── RoleSelection.jsx
+│   ├── HowItWorks.jsx
+│   ├── Benefits.jsx
+│   └── Footer.jsx
+│
+├── pages/
+│   ├── Interview.jsx
+│   ├── Feedback.jsx
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   ├── Dashboard.jsx
+│   └── How.jsx
+│
+├── data/
+│   └── questions.js
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/AI-Interview-App.git
+```
+
+2. Navigate to project folder:
+
+```
+cd AI-Interview-App
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Run the project:
+
+```
+npm run dev
+```
+
+---
+
+## 🔄 Application Flow
+
+```
+Signup → Login → Role Selection → Interview → Feedback → Dashboard
+```
+
+---
+
+## 🧠 How It Works
+
+1. User signs up and logs in
+2. Selects a role
+3. Answers role-based interview questions
+4. System evaluates answers based on length & clarity
+5. Feedback is displayed with score breakdown
+
+---
+
+## 📊 Scoring System
+
+* ✔ Communication (answer length)
+* ✔ Clarity
+* ✔ Confidence
+
+---
+
+## 🚧 Future Enhancements
+
+* 🎤 Voice-based answers
+* 🤖 AI-powered evaluation (NLP)
+* ⏱ Timer-based interviews
+* 📄 Resume-based questions
+* ☁️ Backend integration (Node.js + DB)
+
+---
+
+## 👨‍💻 Team Project
+
+This project was developed collaboratively as part of a team effort.
+
+---
+
+## 📌 Note
+
+This is a frontend-based project using localStorage. No backend is currently integrated.
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub and share with others!
+
+---
